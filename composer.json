@@ -4,7 +4,7 @@
     "description": "Official laravel plugin for cryptocurrency payment gateway",
     "license": "MIT",
     "require": {
-        "laravel/framework": ">=7.0"
+        "laravel/framework": ">=5.6"
     },
     "extra": {
         "branch-alias": {
