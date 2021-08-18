@@ -8,6 +8,9 @@
         "laravel/framework": "5.8.*"
     },
     "extra": {
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        },
         "laravel": {
             "providers": [
                 "Paymentgateway\\PaymentGatewayServiceProvider"
