@@ -13,7 +13,7 @@ class PaymentGatewayServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/config/paymentgateway.php', 'PaymentGateway');
+        $this->mergeConfigFrom(__DIR__.'/config/paymentgateway.php', 'paymentgateway');
         $this->publishes([
             __DIR__.'/config' => base_path('config'),
         ]);
